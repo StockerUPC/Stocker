@@ -7,24 +7,25 @@ margin-left:auto;
 margin-right: auto; 
 width=50%"/>
 
-<h5 style="text-align: center"> Ingeniería de Software </h5>
+<h5 style="text-align: center"> Ingeniería de Software</h5>
 
-<h5 style="text-align: center"> Aplicaciones Web - WS51 </h5>
+<h5 style="text-align: center"> Aplicaciones Web - WX56</h5>
 
-<h5 style="text-align: center"> Docente: Hugo Allan Mori Paiva </h5>
+<h5 style="text-align: center"> Docente: Alex Humberto Sánchez Ponce</h5>
 
-<h5 style="text-align: center"> Startup: Change4All </h5>
+<h5 style="text-align: center"> Startup: Stocker </h5>
 
-<h5 style="text-align: center"> Producto: StyleShare </h5>
+<h5 style="text-align: center"> Producto: Stocker </h5>
 
 ## Team members:
 | Nombre |Código|
 |:-------:|:----------:|
 |||
-|More Rondon, Christopher Sebastian|U202212199|
-|Cortez Quezada, Joaquin Antonio|U202212648|
-|Ramos Najar, Tony Alenxander|U20211A153|
-|Agama Espinoza, Eric Fabrizio|U202213358|
+|Barturen Guzman, Alejandro Nicolas|U202214406|
+|Elías Sanchez, Harold Miguel|U202212684|
+|López Huamán Rodrigo Adrián|U202212338|
+|Meneses Arevalo, Victor Manuel|U202212191|
+|Salvador Rodríguez, Rodrigo Jesús|U202213646|
 
 
 <h5 style="text-align: center"> Ciclo 2024-01 </h5>
@@ -33,7 +34,7 @@ width=50%"/>
 
 | Versión   | Fecha       | Autor      | Descripción                                                                                      | Estado    |
 |-----------|-------------|------------|--------------------------------------------------------------------------------------------------|-----------|
-| 1.0       | 13/04/2024 | Joaquin, Eric, Christopher, Tony | Realizacion del documento |  COMPLETADO |
+| 1.0       | 13/04/2024 | Rodrigo Adrián Lopez Huamán U202212338, Harold Miguel Elías Sanchez U202212684, Rodrigo Jesús Salvador Rodríguez U202213646, Alejandro Nicolas Barturen Guzman U202214406, Victor Manuel Meneses Arévalo U202212191 | Realizacion del documento |  COMPLETADO |
 
 ### Project Report Collaboration Insights
 
