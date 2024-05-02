@@ -51,10 +51,6 @@ export default {
               <span id="stocker">Stocker</span>
             </div>
           </router-link>
-         <pv-button class="boton">
-           <ion-icon name="add-outline"></ion-icon>
-           <span id="create">Create new</span>
-         </pv-button>
        </div>
 
        <nav class="navegacion">
@@ -91,25 +87,17 @@ export default {
                <span>Órdenes</span>
              </router-link>
            </li>
-           <li>
-             <router-link to="/stocker/management" active-class="active-link">
-               <ion-icon name="calculator-outline"></ion-icon>
-               <span>Gestión</span>
-             </router-link>
-           </li>
-
          </ul>
        </nav>
-
        <div>
          <div class="linea"></div>
          <nav class="navegacion">
            <ul>
              <li>
-                <router-link to="/stocker/settings" active-class="active-link">
-                  <ion-icon name="cog-outline"></ion-icon>
-                  <span>Configuración</span>
-                </router-link>
+               <router-link to="#">
+                 <ion-icon name="cog-outline"></ion-icon>
+                 <span>Configuración</span>
+               </router-link>
              </li>
              <li>
                <router-link to="/login">
@@ -120,6 +108,19 @@ export default {
            </ul>
          </nav>
        </div>
+       <div>
+         <div class="linea"></div>
+         <div class="usuario">
+           <img src="../../assets/images/Avatar.png" alt="">
+           <div class="info-usuario">
+             <div class="nombre-email">
+               <span class="nombre">User</span>
+               <span class="email">user@gmail.com</span>
+             </div>
+           </div>
+         </div>
+       </div>
+
      </div>
    </div>
 </template>
@@ -346,7 +347,40 @@ main{
 main.min-main{
   margin-left: 80px;
 }
-
+/*-------------usuario*/
+.barra-lateral .usuario{
+  width: 100%;
+  display: flex;
+}
+.barra-lateral .usuario img{
+  width: 50px;
+  min-width: 50px;
+  border-radius: 10px;
+}
+.barra-lateral .usuario .info-usuario{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--color-texto);
+  overflow: hidden;
+}
+.barra-lateral .usuario .nombre-email{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+.barra-lateral .usuario .nombre{
+  font-size: 15px;
+  font-weight: 600;
+}
+.barra-lateral .usuario .email{
+  font-size: 13px;
+}
+.barra-lateral .usuario ion-icon{
+  font-size: 20px;
+}
 
 
 /*------------------> Responsive*/

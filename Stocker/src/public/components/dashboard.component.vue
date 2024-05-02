@@ -4,9 +4,9 @@ export default {
   data() {
     return {
       products: [
-        { name: 'Surface Excel', soldQuantity: 100, remainingQuantity: 50, price: 200 },
-        { name: 'Rin', soldQuantity: 150, remainingQuantity: 75, price: 300 },
-        { name: 'Parle G', soldQuantity: 200, remainingQuantity: 100, price: 400 },
+        { name: 'Detergente Bolívar', soldQuantity: 450, remainingQuantity: 50, price: 10.00 },
+        { name: 'Arroz Costeño', soldQuantity: 500, remainingQuantity: 75, price: 2.20 },
+        { name: 'Aceite Primor', soldQuantity: 550, remainingQuantity: 100, price: 6.00 },
       ]
     }
   }
@@ -20,36 +20,24 @@ export default {
         <div class="containerS">
           <div class="boxS">
             <h3>Sales Overview</h3>
-            <p>
-              Tus cursos y actividades de manera directa y las aplicaciones de software
-              que necesitas a tu disposición.
-            </p>
+            <img class="chart1" src="../../assets/images/salesOverview.png"/>
           </div>
 
           <div class="boxS">
             <h3>Inventory Summary</h3>
-            <p>
-              Espacio digital destinado a reunir, conservar, preservar y difundir la
-              producción intelectual académica, científica y cultural.
-            </p>
+            <img class="chart1" src="../../assets/images/inventorySummary.png"/>
           </div>
         </div>
 
         <div class="containerS">
           <div class="boxS">
             <h3>Purchase Overview</h3>
-            <p>
-              Tus cursos y actividades de manera directa y las aplicaciones de software
-              que necesitas a tu disposición.
-            </p>
+            <img class="chart1" src="../../assets/images/purchaseOverview.png"/>
           </div>
 
           <div class="boxS">
             <h3>Product Summary</h3>
-            <p>
-              Espacio digital destinado a reunir, conservar, preservar y difundir la
-              producción intelectual académica, científica y cultural.
-            </p>
+            <img class="chart1" src="../../assets/images/productSummary.png"/>
           </div>
         </div>
         <div class="containerS">
@@ -81,7 +69,7 @@ export default {
                   <td>{{ product.name }}</td>
                   <td>{{ product.soldQuantity }}</td>
                   <td>{{ product.remainingQuantity }}</td>
-                  <td>{{ product.price }}</td>
+                  <td>S/.{{ product.price }}</td>
                 </tr>
                 </tbody>
               </table>
@@ -89,14 +77,10 @@ export default {
           </div>
 
           <div class="boxS">
-            <h3>Low Quantity</h3>
-            <p>
-              Espacio digital destinado a reunir, conservar, preservar y difundir la
-              producción intelectual académica, científica y cultural.
-            </p>
+            <h3>Low Quantity Stock</h3>
+            <img class="chart2" src="../../assets/images/LowQuantityStock.png"/>
           </div>
         </div>
-
       </section>
     </div>
   </div>
@@ -139,9 +123,35 @@ export default {
   width: 100%;
   height: auto;
 }
-.table{
-  padding: 2rem;
+.table table {
+  width: 100%;
+}
+.table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: black;
+  padding: 2em 0; /* Ajusta el padding en la parte inferior */
+}
+.table thead th {
+  padding: 0.5em 2em;
+}
+.table tr {
+  border-bottom: 1px solid #F0F1F3;
+}
+.table tbody tr:last-child {
+  border-bottom: none; /* Quita la línea del último elemento de Name */
+}
+.table tbody tr td {
+  font-size: 1.2em; /* Aumenta el tamaño de la fuente */
+  word-spacing: 0.2em; /* Agrega espacio entre las palabras */
+  text-align: center; /* Centra el texto */
+  padding: 1em 0;
+}
+
+.table tbody tr td:first-child {
+  text-align: left; /* Alinea a la izquierda el texto de la primera celda (Name) */
+  padding-left: 1em; /* Ajusta el padding a la izquierda */
 }
 h3{
   color: #000000;
